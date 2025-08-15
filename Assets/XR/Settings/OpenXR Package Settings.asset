@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -210,19 +210,8 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 7697636161826708712}
-  - {fileID: 8908987975766631794}
-  - {fileID: -4401392511906600601}
-  - {fileID: 1171135132571774831}
-  - {fileID: 6440399917587008854}
-  - {fileID: -1819466855535388286}
-  - {fileID: 3168248264386217082}
-  - {fileID: 5494536158371363552}
-  - {fileID: 6454486508016438196}
-  - {fileID: -2020364514193614179}
   - {fileID: -5111966963964493711}
-  - {fileID: 4106035182548840914}
-  - {fileID: -4812039097373205131}
+  - {fileID: 7697636161826708712}
   - {fileID: 5149729986263985092}
   - {fileID: -3065829139816349780}
   - {fileID: 24139314461019511}
@@ -235,6 +224,17 @@ MonoBehaviour:
   - {fileID: -7839463804446976127}
   - {fileID: -4770113401849236477}
   - {fileID: -1763480601870399018}
+  - {fileID: 6440399917587008854}
+  - {fileID: -4401392511906600601}
+  - {fileID: 5494536158371363552}
+  - {fileID: 3168248264386217082}
+  - {fileID: 6454486508016438196}
+  - {fileID: -4812039097373205131}
+  - {fileID: 8908987975766631794}
+  - {fileID: 1171135132571774831}
+  - {fileID: -1819466855535388286}
+  - {fileID: 4106035182548840914}
+  - {fileID: -2020364514193614179}
   - {fileID: 2701512884612248765}
   - {fileID: 4452133653421764328}
   - {fileID: -8635006917376031891}
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -850,20 +850,9 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
+  - {fileID: -5727432853054617716}
   - {fileID: 2802701422657803001}
   - {fileID: 8199967236915588077}
-  - {fileID: 1343990110677591451}
-  - {fileID: 8162271228806035929}
-  - {fileID: -249839975453126086}
-  - {fileID: 3861525967482912302}
-  - {fileID: -3538044848902018834}
-  - {fileID: 1752275690621940669}
-  - {fileID: 8896993342860723920}
-  - {fileID: 5549024765929135698}
-  - {fileID: 1426039433303776510}
-  - {fileID: -5727432853054617716}
-  - {fileID: 7359593439643047913}
-  - {fileID: 1384358952107775873}
   - {fileID: -2959865594135265637}
   - {fileID: -845552705840589044}
   - {fileID: -314713476008579710}
@@ -875,6 +864,17 @@ MonoBehaviour:
   - {fileID: -8950721198656613914}
   - {fileID: 5909934497266136263}
   - {fileID: 1996886922148450821}
+  - {fileID: 3861525967482912302}
+  - {fileID: 8162271228806035929}
+  - {fileID: 8896993342860723920}
+  - {fileID: 1752275690621940669}
+  - {fileID: 5549024765929135698}
+  - {fileID: 1384358952107775873}
+  - {fileID: 1343990110677591451}
+  - {fileID: -249839975453126086}
+  - {fileID: -3538044848902018834}
+  - {fileID: 7359593439643047913}
+  - {fileID: 1426039433303776510}
   - {fileID: 7730258908895345930}
   - {fileID: 2915043413783493638}
   - {fileID: 1084848976720282923}
@@ -884,7 +884,7 @@ MonoBehaviour:
   - {fileID: -4404363634372821143}
   - {fileID: -1019678187798773911}
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -1032,7 +1032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6bfdbcb316ed242b30a8798c9eb853, type: 3}
   m_Name: KHRSimpleControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Khronos Simple Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.khrsimpleprofile
@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
   m_Name: HandCommonPosesInteraction Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Poses
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
   m_Name: MetaHandTrackingAim Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Hand Tracking Aim
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -1648,7 +1648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6096094d69d82cc40947df806f66ab34, type: 3}
   m_Name: OpenXRCompositionLayersFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Composition Layers Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.compositionlayers
