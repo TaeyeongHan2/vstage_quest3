@@ -53,10 +53,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Audience_func_final.unity
     guid: fa1df3ce37f164792818ecc28d131358
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Audience_app_final.unity
     guid: f209f800a2d7043bea9ee23bb534534e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PHOTON_host_stage_with_camera0803.unity
     guid: fa899e87d879da14e8944384f446c2f5
   m_configObjects:
